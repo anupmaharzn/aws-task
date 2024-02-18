@@ -73,27 +73,38 @@
 
 ![example of iam role](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/5a072705-b2e8-4892-9ca8-50ff936f16c4)
 
+![basic-iam-1](https://github.com/anupmaharzn/aws-task/assets/34486226/d8051d14-a559-4087-8520-1c8f91a43209)
 
 ## Lab Task
 
 ### Lab overview
 
-#img2
+![basic-iam-2](https://github.com/anupmaharzn/aws-task/assets/34486226/507f28a1-0057-4cef-a00c-e0d3c81a766e)
+
 
 - Create IAM User
 
-#img3
+![basic-iam-3](https://github.com/anupmaharzn/aws-task/assets/34486226/69f22131-3c0f-45bd-b679-f5bf6126c24a)
 
-#img4
 
-#img5
+![basic-iam-4](https://github.com/anupmaharzn/aws-task/assets/34486226/404a3fae-6491-4df7-a7f1-af5cb007815f)
+
+
+![basic-iam-5](https://github.com/anupmaharzn/aws-task/assets/34486226/49039bf3-ab51-440d-ad16-341f221a07ba)
+
 
 - IAM User cannot be created
 
-#img6
+![basic-iam-6](https://github.com/anupmaharzn/aws-task/assets/34486226/ad724013-3a2a-4bae-b254-2603715ccc59)
+
 
 - Create User group
 
-#img7
-
 **user group cannot be created**
+
+![basic-iam-usergroup-7](https://github.com/anupmaharzn/aws-task/assets/34486226/66bbf9f5-f3c7-404f-9aa7-7bebb6b1d044)
+
+### Assumed Role
+![basic-iam-assumerole-8](https://github.com/anupmaharzn/aws-task/assets/34486226/b6230631-27b0-49c2-a6bf-6ff49b17622e)
+
+
