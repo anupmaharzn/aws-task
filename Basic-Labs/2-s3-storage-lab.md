@@ -47,25 +47,35 @@
 ## Lab Task
 
 - Create a s3 bucket
-#img1
+  
+![s3-1](https://github.com/anupmaharzn/aws-task/assets/34486226/a80b3f02-dfa0-423a-bab2-d7e7dac5d218)
+
 
 - Bucket created
-#img2
+  
+![s3-2](https://github.com/anupmaharzn/aws-task/assets/34486226/99a58ca3-c06a-47cd-a660-b0d14e912111)
+
 
 - upload a file
 
-#img3
+![s3-3](https://github.com/anupmaharzn/aws-task/assets/34486226/11dcf675-9c7c-4322-b584-cfdf225a7cdc)
+
 
 
 - **changing permission for public access of bucket objects**
 
-- first change the **`block all public access`** `off`
-#img4
+    - first change the **`block all public access`** `off`
+  
+    ![s3-4](https://github.com/anupmaharzn/aws-task/assets/34486226/91f05db6-7aa4-4100-a1f2-ce0bf1af5872)
 
-- then add `bucket policy` so that we can `read` the bucket object `publically`
-#img5
+    - then add `bucket policy` so that we can `read` the bucket object `publically`
+  
+    ![s3-5](https://github.com/anupmaharzn/aws-task/assets/34486226/f7c92998-5b12-46cd-8aa0-497ffe76fd5b)
+
 
 - now we can see that object is accessiable thru `object URL`
-#img 6
+  
+![s3-6](https://github.com/anupmaharzn/aws-task/assets/34486226/c0f79acf-550b-4bd4-8b7d-1d63c0c094b1)
+
 
 
