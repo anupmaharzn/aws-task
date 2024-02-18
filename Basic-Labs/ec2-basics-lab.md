@@ -129,15 +129,20 @@
     - in a browser: `` http://169.254.169.254/latest/meta-data/``
     - in a terminal window: ``curl http://169.254.169.254/latest/meta-data/``
 
-### Lab Overview
 
-![ec2-lab](https://github.com/anupmaharzn/intro-to-aws/assets/34486226/91b7472c-51e1-42b6-ae91-fdb363259f61)
+## Screenshots of AWS Task
 
+![basic-ec2-1](https://github.com/anupmaharzn/aws-task/assets/34486226/15068aaf-7017-4b38-9ee2-0b3620c4afc0)
 
-### Screenshots of Lab Work
+- **Create Instance**
+  
+![basic-ec2-2](https://github.com/anupmaharzn/aws-task/assets/34486226/9757174c-4fb2-4512-8a86-1e0dfec10b12)
 
+- **We can see Instance is Created**
 
+![basic-ec2-3](https://github.com/anupmaharzn/aws-task/assets/34486226/b779a52a-7c34-49f1-b3ea-0b51758f5eb7)
 
-
-
+- **Connect Instance with SSH**
+  
+![basic-ec2-4](https://github.com/anupmaharzn/aws-task/assets/34486226/a087552f-ed15-45b6-8006-7d881f8e29ce)
 
