@@ -46,64 +46,86 @@
 - Lets first Create our `VPC`
     - as we can see our `test-asg-vp` VPC `is created`
 
-    #img1
+ ![asg-1](https://github.com/anupmaharzn/aws-task/assets/34486226/08307b50-917c-4aec-9a1a-e7c8e92496b3)
+
 
 - Now let's create our `internet gateway`
+  
     - as we can see our `test-asg-igw` internet gateway is created.
 
-    #img2
+ ![asg-2](https://github.com/anupmaharzn/aws-task/assets/34486226/3bce12e8-0223-41bc-b6f8-bc100b662c32)
 
     - now attach it to vpc.
 
-    #img3
+ ![asg-3](https://github.com/anupmaharzn/aws-task/assets/34486226/6d89e05a-7f8c-4c39-99b1-22ab3131cb43)
+
 
 - `note in overview we have mentioned only one subnet` but we are creating two subnets
 
-#img4
+![asg-4](https://github.com/anupmaharzn/aws-task/assets/34486226/c7279658-9c3c-4f2d-be82-9136ddf9a221)
 
-#img5
+
+![asg-5](https://github.com/anupmaharzn/aws-task/assets/34486226/f91ad06c-e453-486b-8ab1-2b4248d3abee)
+
 
 - now create `route table` add `internet gateway` in route and also associate the subnets that we created.
+  
 - added `igw`
-#img6
+  
+![asg-6](https://github.com/anupmaharzn/aws-task/assets/34486226/f1e81bab-11fe-41b3-a56c-7d54a00ae25c)
+
 - associated `subnets`
-#img7
+  
+![asg-7](https://github.com/anupmaharzn/aws-task/assets/34486226/e2cb8b65-636c-4421-9892-f6388ff9da5a)
 
 - now lets create `target group`,responsible for pointing to `EC2 instances`
 
-#img8
+![asg-8](https://github.com/anupmaharzn/aws-task/assets/34486226/5f4465e7-cc9c-4ea9-9e2f-e5cb0553ada1)
+
 
 - as we can see, we are just creating blank `tg`.
-#img9
+  
+![asg-9](https://github.com/anupmaharzn/aws-task/assets/34486226/c5e328fd-3d66-4269-80e0-43bb85dce8c6)
+
 
 
 - now create `Application Load Balancer`
 
     - we also have to create security group from inbound http traffic
-    #img10
+      
+   ![asg-10](https://github.com/anupmaharzn/aws-task/assets/34486226/3c1f9ce9-78b3-4ddb-a617-97968a0bf0ca)
+
 
 - now,create `ALB`
-#img11
+  
+![asg-11](https://github.com/anupmaharzn/aws-task/assets/34486226/58ca9f90-6bb9-46a7-a93f-f405d46b5f8a)
+
 
 - after that, it's time to create `Auto Scaling Group`
 
-#img12
+![asg-12](https://github.com/anupmaharzn/aws-task/assets/34486226/ead6a9d9-208e-4828-8744-a4d98f184d12)
+
 
 - lets create `Lauch template`
 
-#img13
+![asg-13](https://github.com/anupmaharzn/aws-task/assets/34486226/3bd11db0-7088-408c-8afe-664d5cb8b9c2)
+
 
 - now assign this lauch template and create auto scaling group
 
-#img14
+![asg-14](https://github.com/anupmaharzn/aws-task/assets/34486226/0db11af4-4909-40ee-adfb-88f12ae9b1e6)
 
-#img15
 
-#img16
+![asg-15](https://github.com/anupmaharzn/aws-task/assets/34486226/9f9c1e71-250b-4bb6-8732-d29a89fdd808)
+
+
+![asg-16](https://github.com/anupmaharzn/aws-task/assets/34486226/c9cf95bc-716f-4840-9872-64580fc3df54)
+
 
 - now click on create auto scaling group.
 
-#img17
+![asg-17](https://github.com/anupmaharzn/aws-task/assets/34486226/316018b0-93f9-4628-bbdc-eeccdcf24b5b)
+
 
 
 - **once you create auto scaling group it automatically start creating EC2 instances.**
