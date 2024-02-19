@@ -16,32 +16,38 @@
 
 - First , Create a bucket
 
-#img1
+![stat-1](https://github.com/anupmaharzn/aws-task/assets/34486226/b8ad7aa3-352a-4873-8ad8-f60286c4551b)
+
 
 
 - now, add bucket policies
 
-#img2
+![stat-2](https://github.com/anupmaharzn/aws-task/assets/34486226/a7e57663-0091-4c2f-a478-6f40e47cf38c)
 
 
-- go to `properties` table and enable static hosting
 
-#img3
+- go to `properties` tab and enable static hosting
+
+![stat-3](https://github.com/anupmaharzn/aws-task/assets/34486226/9596de2a-8e1b-4bcd-a7ab-f9375275b274)
+
 
 
 - now let's upload our static file into s3 bucket
 
-#img4
+![stat-4](https://github.com/anupmaharzn/aws-task/assets/34486226/7b85e11b-09f5-4c06-a358-3d82f22195a5)
 
-- now , if we one this url , we can see our hosted website
 
-#img5
+- now , if we one this `url` , we can see our hosted website
+
+![stat-5](https://github.com/anupmaharzn/aws-task/assets/34486226/8a058f03-3ef2-41a6-9113-69ff808cd0af)
+
 
 - **Our static Website**
 
-#img6
+![stat-6](https://github.com/anupmaharzn/aws-task/assets/34486226/ef49e650-eab5-49fd-bf45-82bfacd0a3c5)
+
 
 
 - **Route 53 domain not accessiable in this account**
 
-#img7
+#img7![stat-7](https://github.com/anupmaharzn/aws-task/assets/34486226/bbec165b-e69c-4caf-a9ef-c07dad85b2a3)
